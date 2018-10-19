@@ -10,7 +10,13 @@ head {
 }
 
 #logo-list h2 {
-  font-size: 20px;
+  font-size: 30px;
+  
+}
+h2 {
+    font-family: 'Yesteryear', cursive;
+    
+
 }
 
 nav img {
