@@ -15,7 +15,6 @@ head {
 }
 h2 {
     font-family: 'Yesteryear', cursive;
-    
 
 }
 
@@ -38,6 +37,11 @@ main {
 
 main img {
   width: 960px;
+}
+
+#recipe {
+    border: 2px solid black;
+    background-image: url('img/list-bg.png');
 }
 
 /*footer*/
