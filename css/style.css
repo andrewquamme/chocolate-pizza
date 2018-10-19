@@ -45,5 +45,8 @@ main img {
 }
 
 /*footer*/
-
+footer button {
+    color: white;
+    background: salmon;
+}
 
