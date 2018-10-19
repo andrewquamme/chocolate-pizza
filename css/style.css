@@ -75,8 +75,8 @@ section p {
 footer button {
     color: white;
     background: salmon;
+}
 
- footer {
+footer {
    height: 200px;
- }
- 
+}
