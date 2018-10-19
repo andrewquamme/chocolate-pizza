@@ -3,19 +3,15 @@ body {
 }
 
 /*Header*/
-head {
+header {
   width: 960px;
-  height: 300px;
+  height: 40px;
   margin-bottom: 30px;
 }
 
-#logo-list h2 {
-  font-size: 30px;
-  
-}
-h2 {
-    font-family: 'Yesteryear', cursive;
-
+header h2 {
+  font-size: 20px;
+  font-family: 'Yesteryear', cursive;
 }
 
 nav img {
@@ -24,10 +20,20 @@ nav img {
 
 #social-list {
   float: right;
+  vertical-align: middle;
 }
 
 #social-list li {
     display: inline-block;    
+}
+
+#title {
+  margin-bottom: 30px;
+}
+
+#title h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
 }
 
 /*main*/
@@ -39,11 +45,31 @@ main img {
   width: 960px;
 }
 
+section {
+  line-height: 23px;
+  text-indent: 30px;
+  font-size: 20px;
+}
+
+section p {
+  margin: 30px 0px 30px 0px;
+}
+
 #recipe {
-    border: 2px solid black;
-    background-image: url('img/list-bg.png');
+  height: 200px;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+  margin: auto;
+  background-image: url(../img/list-bg.png);
+  column-count: 2;
+}
+
+#recipe li{
+  margin: 10px;
 }
 
 /*footer*/
-
-
+ footer {
+   height: 200px;
+ }
