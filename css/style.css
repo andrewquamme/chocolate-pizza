@@ -63,6 +63,7 @@ section p {
   margin: auto;
   background-image: url(../img/list-bg.png);
   column-count: 2;
+
 }
 
 #recipe li{
@@ -70,6 +71,12 @@ section p {
 }
 
 /*footer*/
+
+*footer*/
+footer button {
+    color: white;
+    background: salmon;
+
  footer {
    height: 200px;
  }
