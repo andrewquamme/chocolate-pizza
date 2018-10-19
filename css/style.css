@@ -1,20 +1,38 @@
-/*Header*/
-#social-list li {
-    display: inline-block;
-    margin-top: 40px;
-    margin-right: 80px;
-    float: right;
-    margin: 30px 30px 30px 0px;
-    
+body {
+  width: 960px;
 }
 
-/*body*/
+/*Header*/
+head {
+  width: 960px;
+  height: 300px;
+  margin-bottom: 30px;
+}
 
+#logo-list h2 {
+  font-size: 20px;
+}
 
+nav img {
+  float: left;
+}
+
+#social-list {
+  float: right;
+}
+
+#social-list li {
+    display: inline-block;    
+}
 
 /*main*/
+main {
+  width: 960px;
+}
 
-
+main img {
+  width: 960px;
+}
 
 /*footer*/
 
