@@ -1,5 +1,6 @@
 body {
   width: 960px;
+  margin: auto;
 }
 
 /*Header*/
@@ -75,6 +76,11 @@ section p {
 footer button {
     color: white;
     background: salmon;
+    float: right;
+    margin: 30px;
+    padding: 10px 25px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 footer {
