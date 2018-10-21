@@ -58,17 +58,12 @@ section p {
 
 #recipe {
   height: 200px;
-  margin-top: 30px;
-  padding: 20px;
+  padding: 35px;
   font-size: 20px;
-  margin: auto;
+  margin: 0px 20px;
   background-image: url(../img/list-bg.png);
   column-count: 2;
-
-}
-
-#recipe li{
-  margin: 10px;
+  line-height: 1.6;
 }
 
 /*footer*/
